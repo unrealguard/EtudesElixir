@@ -21,7 +21,7 @@ defmodule Etudes.Chpt3.GeomTest do
     assert Etudes.Chpt3.Geom.area({:triangle, 3, -4}) == 0
   end
 
-  test "given both values are negative, throw an error" do
+  test "given both values are negative, return 0" do
     assert Etudes.Chpt3.Geom.area({:ellipse, -3, -4}) == 0
   end
 
