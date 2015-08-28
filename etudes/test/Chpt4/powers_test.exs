@@ -25,4 +25,8 @@ defmodule Etudes.Chpt4.PowersTest do
     assert Etudes.Chpt4.Powers.raise(2, -3) == 0.125
   end
 
+  test "the cubed root of 27 is 3" do
+    assert Etudes.Chpt4.Powers.nth_root(27, 3) == 3.0
+  end
+
 end
